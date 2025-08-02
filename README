@@ -1,0 +1,35 @@
+# Web Summarizer
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+A lightweight tool that scrapes any webpage and generates an AI-powered summary using OpenAI models. Perfect for quickly digesting articles, blogs, and news content.
+
+---
+
+## Features
+
+- **Web Scraping** – Extracts main content from a given URL.
+- **AI Summarization** – Summarizes content using OpenAI LLM.
+- **Environment Variables** – Keeps your API keys secure.
+- **CLI Friendly** – Simple command-line execution.
+- **Extendable** – Can be used in larger automation workflows.
+
+---
+
+## Tech Stack
+
+- **Python 3**
+- `requests`, `beautifulsoup4` – Web scraping
+- `openai` – AI summarization
+- `python-dotenv` – Environment variable management
+
+---
+
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Arijeet223/web-summarizer.git
+cd web-summarizer
